@@ -1,0 +1,186 @@
+Version: SEQ |  Set of tests: 1 |  Position count: 
+
+Time: 0.000001
+Result: 0 0.000000 0 0.000000 0 0.000000 0 0.000000
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 1000
+
+Time: 0.000276
+Result: 10 127.397423 4 238.885544 10 600.464905 3 1096.163696
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 35
+
+Time: 0.000011
+Result: 10 3639.926758 4 6825.300781 10 17156.140625 3 31318.958984
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 35
+
+Time: 0.000012
+Result: 10 3639.926758 4 6825.300781 10 17156.140625 3 31318.958984
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 35
+
+Time: 0.000011
+Result: 10 3639.926758 4 6825.300781 10 17156.140625 3 31318.958984
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 35
+
+Time: 0.000012
+Result: 10 3639.926758 4 6825.300781 10 17156.140625 3 31318.958984
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 35
+
+Time: 0.000012
+Result: 10 3639.926758 4 6825.300781 10 17156.140625 3 31318.958984
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 35
+
+Time: 0.000012
+Result: 10 3639.926758 4 6825.300781 10 17156.140625 3 31318.958984
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 30000
+
+Time: 0.008034
+Result: 10 4.246581 4 7.962851 10 20.015497 3 36.538788
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 30000
+
+Time: 0.008044
+Result: 10 4.246581 4 7.962851 10 20.015497 3 36.538788
+
+
+Version: SEQ |  Set of tests: 1 |  Position count: 30000
+
+Time: 0.008010
+Result: 10 4.246581 4 7.962851 10 20.015497 3 36.538788
+
+
+Version: SEQ |  Set of tests: 3 |  Position count: 20
+
+Time: 0.000002
+Result: 10 12966.631836
+
+
+Version: SEQ |  Set of tests: 4 |  Position count: 20
+
+Time: 0.000004
+Result: 16 12966.632812
+
+
+Version: SEQ |  Set of tests: 5 |  Position count: 20
+
+Time: 0.000002
+Result: 9 12829.288086
+
+
+Version: SEQ |  Set of tests: 6 |  Position count: 20
+
+Time: 0.000003
+Result: 16 12829.288086
+
+
+Version: SEQ |  Set of tests: 7 |  Position count: 1000000
+
+Time: 161.181910
+Result: 507805 12177.071289 400548 23157.615234 511786 34230.769531 511786 44824.339844
+
+
+Version: SEQ |  Set of tests: 7 |  Position count: 1000000
+
+Time: 166.149159
+Result: 507805 12177.071289 400548 23157.615234 511786 34230.769531 511786 44824.339844
+
+
+Version: SEQ |  Set of tests: 7 |  Position count: 1000000
+
+Time: 164.430613
+Result: 507805 12177.071289 400548 23157.615234 511786 34230.769531 511786 44824.339844
+
+
+Version: SEQ |  Set of tests: 8 |  Position count: 100000000
+
+Time: 5.817663
+Result: 10 0.000080 658423 0.000081 658423 0.000078
+
+
+Version: SEQ |  Set of tests: 8 |  Position count: 100000000
+
+Time: 5.746275
+Result: 10 0.000080 658423 0.000081 658423 0.000078
+
+
+Version: SEQ |  Set of tests: 8 |  Position count: 100000000
+
+Time: 5.893754
+Result: 10 0.000080 658423 0.000081 658423 0.000078
+
+
+Version: SEQ |  Set of tests: 9 |  Position count: 16
+
+Time: 0.000002
+Result: 5 189.004868
+
+
+Version: SEQ |  Set of tests: 9 |  Position count: 17
+
+Time: 0.000001
+Result: 15 193.299606
+
+
+Version: SEQ |  Set of tests: 2 |  Position count: 30000
+
+Time: 30.083258
+Result: 17197 1103.167480 17223 2183.092773 17229 3818.229248 17222 5436.966797 15849 7602.401855 15924 9764.638672
+
+
+Version: SEQ |  Set of tests: 2 |  Position count: 30000
+
+Time: 29.037943
+Result: 17197 1103.167480 17223 2183.092773 17229 3818.229248 17222 5436.966797 15849 7602.401855 15924 9764.638672
+
+
+Version: SEQ |  Set of tests: 2 |  Position count: 30000
+
+Time: 29.253292
+Result: 17197 1103.167480 17223 2183.092773 17229 3818.229248 17222 5436.966797 15849 7602.401855 15924 9764.638672
+
+
+Version: SEQ |  Set of tests: 2 |  Position count: 300000
+
+Time: 320.751579
+Result: 17197 110.317047 17223 218.308823 17229 381.825714 17222 543.696777 15849 760.238770 15924 976.476868
+
+
+Version: SEQ |  Set of tests: 7 |  Position count: 2000000
+
+Time: 339.267807
+Result: 507805 6088.535645 400548 11578.807617 511786 17115.384766 511786 22412.169922
+
+
+Version: SEQ |  Set of tests: 2 |  Position count: 60000
+
+Time: 58.100201
+Result: 17197 551.583740 17223 1091.546387 17229 1909.114624 17222 2718.483398 15849 3801.200928 15924 4882.319336
+
+
+Version: SEQ |  Set of tests: 7 |  Position count: 2000000
+
+Time: 326.051962
+Result: 507805 6088.535645 400548 11578.807617 511786 17115.384766 511786 22412.169922
+
+
+Version: SEQ |  Set of tests: 8 |  Position count: 200000000
+
+Time: 11.081208
+Result: 10 0.000040 658423 0.000040 658423 0.000039
+
+

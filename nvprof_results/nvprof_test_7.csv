@@ -1,0 +1,28 @@
+==14853== NVPROF is profiling process 14853, command: ./src/energy_storms_cuda 1000000 ./test_files/files/test_07_a1M_p5k_w1 ./test_files/files/test_07_a1M_p5k_w2 ./test_files/files/test_07_a1M_p5k_w3 ./test_files/files/test_07_a1M_p5k_w4
+==14853== Warning: Unified Memory Profiling is not supported on the current configuration because a pair of devices without peer-to-peer support is detected on this multi-GPU setup. When peer mappings are not available, system falls back to using zero-copy memory. It can cause kernels, which access unified memory, to run slower. More details can be found at: http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#um-managed-memory
+
+Time: 1.664382
+Result: 507805 12177.071289 400548 23157.615234 511786 34230.769531 511786 44824.339844
+==14853== Profiling application: ./src/energy_storms_cuda 1000000 ./test_files/files/test_07_a1M_p5k_w1 ./test_files/files/test_07_a1M_p5k_w2 ./test_files/files/test_07_a1M_p5k_w3 ./test_files/files/test_07_a1M_p5k_w4
+==14853== Profiling result:
+"Type","Time(%)","Time","Calls","Avg","Min","Max","Name"
+,%,s,,us,us,ms,
+"GPU activities",99.714783,1.586661,20000,79.333000,71.905000,1.374506,"func_4_1(int, float*, int, float)"
+"GPU activities",0.219244,0.003489,10,348.860000,0.768000,2.371410,"[CUDA memcpy DtoH]"
+"GPU activities",0.035705,0.000568,4,142.033000,136.610000,0.145249,"func_4_3_kernel(float*, float*, int*, int)"
+"GPU activities",0.014534,0.000231,4,57.816000,57.248000,0.058273,"func_4_2_2(int, float*, float*)"
+"GPU activities",0.012941,0.000206,4,51.480000,51.009000,0.051808,"func_4_2_1(int, float*, float*)"
+"GPU activities",0.002793,0.000044,1,44.449000,44.449000,0.044449,"func_3(int, float*, float*)"
+"API calls",57.318155,1.446696,10,144669.570000,303.951000,392.061398,"cudaMemcpy"
+"API calls",34.227935,0.863904,1,863904.414000,863904.414000,863.904414,"cudaDeviceSynchronize"
+"API calls",8.061380,0.203467,20013,10.166000,2.424000,3.631588,"cudaLaunchKernel"
+"API calls",0.168013,0.004241,10,424.059000,4.929000,1.491280,"cudaMalloc"
+"API calls",0.112035,0.002828,1,2827.728000,2827.728000,2.827728,"cuDeviceGetPCIBusId"
+"API calls",0.110079,0.002778,10,277.837000,21.901000,0.676230,"cudaFree"
+"API calls",0.001416,0.000036,101,0.353000,0.200000,0.001462,"cuDeviceGetAttribute"
+"API calls",0.000664,0.000017,1,16.752000,16.752000,0.016752,"cudaSetDevice"
+"API calls",0.000092,0.000002,3,0.775000,0.381000,0.001382,"cuDeviceGetCount"
+"API calls",0.000083,0.000002,1,2.094000,2.094000,0.002094,"cuDeviceGetUuid"
+"API calls",0.000077,0.000002,2,0.966000,0.350000,0.001583,"cuDeviceGet"
+"API calls",0.000046,0.000001,1,1.152000,1.152000,0.001152,"cuDeviceGetName"
+"API calls",0.000027,0.000001,1,0.671000,0.671000,0.000671,"cuDeviceTotalMem"
